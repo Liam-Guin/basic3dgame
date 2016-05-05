@@ -11,10 +11,10 @@ Scene3d.prototype.init = function() {
     this.h = canvas.height;
     this.count = 50;
     this.sz = 100;
-    this.ht = 0.8; // height of person
+    this.ht = 0.1; // height of person
     this.vis = 200; // needs to be greater than the diagonal of a 100 square
-    this.scrDist = 0.15; // = depth of field
-    this.scrHalf = 0.15;
+    this.scrDist = 0.05; // = depth of field
+    this.scrHalf = 0.05;
     this.initField(600, 50); // # of trees, # of gifts
     this.initImages();
 
