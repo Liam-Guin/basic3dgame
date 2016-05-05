@@ -54,7 +54,7 @@ Scene3d.prototype.initField = function(n, k) {
     for (var j = 0; j < k; j++) {
         var x = Math.random() * this.sz;
         var y = Math.random() * this.sz;
-        this.field.push({type: 2, x: x, y: y, h: 0.5, index: fieldSz + j});
+        this.field.push({type: 2, x: x, y: y, h: 2.5, index: fieldSz + j});
     }
 }
 
