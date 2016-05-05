@@ -40,10 +40,10 @@ Scene3d.prototype.initField = function(n, k) {
     this.dir = 0;
     this.field = [];
     for (var i = 0; i < this.sz; i++) {
-        this.field.push({type: 3, x: i, y: 0, h: 5.5});
-        this.field.push({type: 3, x: i + 1, y: this.sz, h: 5.5});
-        this.field.push({type: 3, x: 0, y: i + 1, h: 5.5});
-        this.field.push({type: 3, x: this.sz, y: i, h: 5.5});
+        this.field.push({type: 3, x: i, y: 0, h: 1.5});
+        this.field.push({type: 3, x: i + 1, y: this.sz, h: 1.5});
+        this.field.push({type: 3, x: 0, y: i + 1, h: 1.5});
+        this.field.push({type: 3, x: this.sz, y: i, h: 1.5});
     }
     for (var j = 0; j < n; j++) {
         var x = Math.random() * this.sz;
@@ -190,4 +190,3 @@ window.sceneScriptPath = (function() {
     }
     return src.replace(/[^\/]+$/, '');
 })();
-
