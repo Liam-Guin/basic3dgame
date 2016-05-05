@@ -11,7 +11,7 @@ Scene3d.prototype.init = function() {
     this.h = canvas.height;
     this.count = 50;
     this.sz = 100;
-    this.ht = 5;
+    this.ht = 2; // height of person
     this.vis = 200; // needs to be greater than the diagonal of a 100 square
     this.scrDist = 0.2; // = depth of field
     this.scrHalf = 0.2;
