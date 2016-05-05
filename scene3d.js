@@ -12,7 +12,7 @@ Scene3d.prototype.init = function() {
     this.count = 5;
     this.sz = 100;
     this.ht = 1;
-    this.vis = 110;
+    this.vis = 200;
     this.scrDist = 0.3;
     this.scrHalf = 0.1;
     this.initField(100, 5);
