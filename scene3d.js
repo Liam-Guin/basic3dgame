@@ -156,9 +156,9 @@ Scene3d.prototype.onTimer = function() {
         this.x += step * Math.cos(this.dir);
         this.y += step * Math.sin(this.dir);
     } else if (this.move == 'L') {
-        this.dir += 0.02;
+        this.dir += 0.07;
     } else if (this.move == 'R') {
-        this.dir -= 0.02;
+        this.dir -= 0.07;
     }
     this.redraw();
 }
