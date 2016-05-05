@@ -86,7 +86,7 @@ Scene3d.prototype.redraw = function() {
     }
     this.ctx.fillStyle = '#0000cc';
     this.ctx.font = '20px Arial';
-    this.ctx.fillText('Mickies to find: ' + this.count, 2, 23);
+    this.ctx.fillText(' Mickies to find: ' + this.count, 2, 23);
 }
 
 Scene3d.prototype.sortObjects = function(objs) {
