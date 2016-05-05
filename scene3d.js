@@ -152,7 +152,7 @@ Scene3d.prototype.angleTo = function(x, y) {
 
 Scene3d.prototype.onTimer = function() {
     if (this.move == 'F') {
-        var step = 1.1; // run speed
+        var step = 0.7; // run speed
         this.x += step * Math.cos(this.dir);
         this.y += step * Math.sin(this.dir);
     } else if (this.move == 'L') {
