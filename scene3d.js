@@ -9,13 +9,13 @@ Scene3d.prototype.init = function() {
     this.ctx = canvas.getContext('2d');
     this.w = canvas.width;
     this.h = canvas.height;
-    this.count = 5;
+    this.count = 50;
     this.sz = 100;
     this.ht = 1;
     this.vis = 200; // needs to be greater than the diagonal of a 100 square
     this.scrDist = 0.2; // = depth of field
     this.scrHalf = 0.2;
-    this.initField(600, 50);
+    this.initField(600, 50); // # of trees, # of gifts
     this.initImages();
 
     var self = this;
@@ -86,7 +86,7 @@ Scene3d.prototype.redraw = function() {
     }
     this.ctx.fillStyle = '#0000cc';
     this.ctx.font = '20px Arial';
-    this.ctx.fillText('Gifts to find: ' + this.count, 2, 23);
+    this.ctx.fillText('Mickies to find: ' + this.count, 2, 23);
 }
 
 Scene3d.prototype.sortObjects = function(objs) {
