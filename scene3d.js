@@ -14,7 +14,7 @@ Scene3d.prototype.init = function() {
     this.ht = 0.1; // height of person
     this.vis = 200; // needs to be greater than the diagonal of a 100 square
     this.scrDist = 0.3; // = depth of field
-    this.scrHalf = 0.1;
+    this.scrHalf = 0.2;
     this.initField(600, 50); // # of trees, # of gifts
     this.initImages();
 
