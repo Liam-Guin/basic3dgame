@@ -12,9 +12,9 @@ Scene3d.prototype.init = function() {
     this.count = 5;
     this.sz = 100;
     this.ht = 1;
-    this.vis = 200;
-    this.scrDist = 0.2;
-    this.scrHalf = 0.1;
+    this.vis = 200; // needs to be greater than the diagonal of a 100 square
+    this.scrDist = 0.2; // = depth of field
+    this.scrHalf = 0.5;
     this.initField(100, 5);
     this.initImages();
 
