@@ -9,7 +9,7 @@ Scene3d.prototype.init = function() {
     this.ctx = canvas.getContext('2d');
     this.w = canvas.width;
     this.h = canvas.height;
-    this.count = 50;
+    this.count = 5;
     this.sz = 100;
     this.ht = 0.65; // height of person
     this.vis = 200; // needs to be greater than the diagonal of a 100 square
@@ -86,7 +86,7 @@ Scene3d.prototype.redraw = function() {
     }
     this.ctx.fillStyle = '#0000cc';
     this.ctx.font = '20px Arial';
-    this.ctx.fillText(' Mickies to find: ' + this.count, 2, 23);
+    this.ctx.fillText(' Presents to find: ' + this.count, 2, 23);
 }
 
 Scene3d.prototype.sortObjects = function(objs) {
