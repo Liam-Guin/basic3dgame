@@ -59,7 +59,7 @@ Scene3d.prototype.initField = function(n, k) {
 }
 
 Scene3d.prototype.redraw = function() {
-    this.ctx.fillStyle = '#aaccff';
+    this.ctx.fillStyle = '#80bfff';
     this.ctx.fillRect(0, 0, this.w, this.h / 2);
     this.ctx.fillStyle = '#86592d';
     this.ctx.fillRect(0, this.h / 2, this.w, this.h / 2);
