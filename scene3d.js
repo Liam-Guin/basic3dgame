@@ -25,7 +25,7 @@ Scene3d.prototype.init = function() {
 }
 
 Scene3d.prototype.initImages = function() {
-    var files = ['fir1.png', 'fir2.png', 'gift.png', 'stake.png'];
+    var files = ['fir1.png', 'fir2.png', 'fir3.png', 'gift.png', 'stake.png'];
     this.images = [];
     for (var i in files) {
         var img = new Image();
