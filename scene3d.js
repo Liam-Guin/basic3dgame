@@ -84,7 +84,7 @@ Scene3d.prototype.redraw = function() {
         var sy = -this.ht * k;
         this.drawObject(obj, sx, sy, sh);
     }
-    this.ctx.fillStyle = '#0000cc';
+    this.ctx.fillStyle = '#1a1a1a';
     this.ctx.font = '20px Arial';
     this.ctx.fillText(' Presents to find: ' + this.count, 2, 23);
 }
